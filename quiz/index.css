@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.unsplash.com/photo-1458966480358-a0ac42de0a7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700");
+    /* background: url("https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100vh;
+
+justify-content: center;
+overflow: hidden;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#fullscreen{
+    background-color: rgb(15, 14, 14);
+    opacity: 0.7;
+    height: 100vh;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    /* z-index: 1; */
+        justify-content: center;
+    width:100%;
+    position: relative;
+    /* border-radius: 50%; */
+    
+
+}
+#forminclude{
+    width:360px;
+    /* background-color: white; */
+    background: url("https://images.unsplash.com/photo-1458929526027-052f5d6a3c5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+   /* opacity:0.; */
+   /* z-index: 12; */
+   border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+    position: absolute;
+box-shadow: rgb(19, 18, 18) 0px 5px 15px;
+    /* box-shadow: rgba(232, 12, 151, 0.25) -20px 54px 55px, rgba(146, 11, 161, 0.25) -20px -20px 30px, rgba(209, 19, 209, 0.25) 3px 4px 6px, rgba(209, 43, 43, 0.25) 3px 12px 13px, rgba(207, 25, 207, 0.25) 3px 3px 52px; */
+
+}
+.form{
+    /* background-color: rgb(215, 228, 224); */
+    padding: 20px;
+    /* opacity: ; */
+    /* box-shadow: 0 4x 8px; */
+    border-radius: 10px;
+    margin: 10px;
+    font-size:14px;
+}
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    border: solid 2px gainsboro;
+}
+.input::placeholder{
+    color: black;
+    font-family: cursive;
+}
+.btn{
+    background-color: #132087;
+color: aliceblue;
+border: none;
+/* display: ; */
+width: 70%;
+padding: 10px;
+margin: 20px 0;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+font-size:14px;
+
+}
+.btn:hover{
+    color: aquamarine;
+}
+.score{
+    text-align:center;
+    color: blue;
+}
